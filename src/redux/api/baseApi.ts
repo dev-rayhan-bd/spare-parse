@@ -3,7 +3,8 @@ import type { RootState } from "../store";
 import { logout, updateTokens } from "../features/auth/authSlice";
 
 // const BASE_URL = "https://backend.sparedoc.com/api/v1";
-const BASE_URL = "http://10.10.20.26:7080/api/v1";
+const BASE_URL = "https://fit-parts-ecommerce-for-vehicle-par.vercel.app/api/v1";
+// const BASE_URL = "http://10.10.20.26:7080/api/v1";
 
 let csrfToken: string | null = null;
 let csrfPromise: Promise<string | null> | null = null;
